@@ -1,6 +1,7 @@
 // naglowki
 #include <iostream>
 #include <string>
+#include <cmath>
 
 using namespace std;
 
@@ -35,6 +36,9 @@ int main() {
     // zmienna typu string (lancuch znakow)
     string tekst = "Jestem lancuchem znakow.";
 
+    // tablice zmiennych
+    int tablica[3] = {3,5,7};
+
     // wyswietlanie na ekran
     cout << "Hello World!" << endl;
     cout << tekst << endl;
@@ -51,7 +55,44 @@ int main() {
         cout << "dlugie imie" << endl;
     }
 
+    // instrukcja warunkowa do sprawdzania wielu warunkow
+    if (liczba < 67) {
+        cout << "Zmienna liczba jest mniejsza od 67" << endl;
+    } else if (liczba > 67) {
+        cout << "Zmienna liczba jest wieksza od 67" << endl;
+    } else {
+        cout << "Zmienna liczba ma wartosc 67" << endl;
+    }
 
+    // petla typu for
+    for (int i = 0; i < 5; i++) {
+        cout << "Hej po raz " << i + 1 << endl;
+    }
+
+    // petla typu while
+    while (liczba > 10) {
+        cout << liczba << endl;
+        liczba /= 2;
+    }
+
+    // operatory arytmetyczne
+    liczba = 5 + 8; // + dodawanie
+    liczba = liczba - 3; // - odejmowanie
+    ulamek = ulamek * 3; // * mnozenie
+    liczba = liczba / 3; // / dzielenie dla int calkowity wynik dzielenia
+    ulamek = ulamek / 5; // / dzielenie ulamka np float
+    liczba = liczba % 3; // % reszta z dzielenia calkowitego (modulo)
+
+    // funkcje matematyczne z biblioteki cmath
+    ulamek2 = pow(ulamek2, -2); // potegowanie, drugi argument to wykladnik potegi
+    ulamek2 = sqrt(2.0); // pierwiastek kwadratowy
+    ulamek2 = cbrt(2.0); // pierwiastek szescienny
+    liczba = ceil(ulamek); // zaokraglenie w gore (sufit)
+    liczba = floor(ulamek); // zaokraglenie w dol (podloga)
+    liczba = round(ulamek); // zaokraglenie tradycyjne
+    liczba = trunc(ulamek); // odciecie czesci ulamkowej
+    liczba = abs(-5); // wartosc bezwzgledna
+    ulamek2 = log10(2.0); // logarytm dziesietny
 
     return 0;
 }
