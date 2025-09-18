@@ -16,7 +16,7 @@ int main() {
     // Deklarowanie zmiennych
     // typ_zmiennej nazwa_zmiennej;
 
-    // zmienna typu int (liczba ca³kowita)
+    // zmienna typu int (liczba calkowita)
     int liczba = 67;
 
     // zmienna typu char (jeden znak)
