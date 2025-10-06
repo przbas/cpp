@@ -9,7 +9,7 @@ using namespace std;
 // funkcja main jest punktem startowym programu
 int main() {
 
-    // tu wpisujemy kod programu
+    // Tu wpisujemy kod programu
 
     return 0; // infromacja dla systemu, ze wszystko ok
 }
