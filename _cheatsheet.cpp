@@ -10,6 +10,16 @@ using namespace std;
 /* To jest komentarz
     w wielu liniach */
 
+// przed glowna funkcja main() mozna definiowac wlasne funkcje
+int SumaDwochLiczb(int a, int b) {
+    int suma; // zmienna lokalna widoczna tylko w funkcji
+
+    suma = a + b;
+
+    return suma; // wartosc zwracana przez funkcje
+}
+
+
 // funkcja main
 int main() {
 
@@ -72,7 +82,7 @@ int main() {
     // petla typu while
     while (liczba > 10) {
         cout << liczba << endl;
-        liczba /= 2;
+        liczba /= 2; // to samo co liczba=liczba/2
     }
 
     // operatory arytmetyczne
@@ -93,6 +103,11 @@ int main() {
     liczba = trunc(ulamek); // odciecie czesci ulamkowej
     liczba = abs(-5); // wartosc bezwzgledna
     ulamek2 = log10(2.0); // logarytm dziesietny
+
+
+    // wywolanie funkcji i wyswietlenie wyniku
+
+    cout << SumaDwochLiczb(liczba, 5);
 
     return 0;
 }
