@@ -32,5 +32,9 @@ int main() {
     // wywolanie funkcji i przekazanie do niej pobrany dlugiTekst;
     cout << TylkoWielkie(dlugiTekst);
 
+    // dostep do konkretnej litery w string poprzez indeks w nawiasie kwadratowym [2]
+    // indeksowanie liczy sie od 0 wiec [2] oznacza trzecia litere
+    //cout dlugiTekst[2];
+
     return 0; // infromacja dla systemu, ze wszystko ok
 }
