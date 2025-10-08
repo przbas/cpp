@@ -1,5 +1,8 @@
 # Pliki do nauki programowania w języku C++
 
+### Kartkówka
+[Zadanie](https://zs1opatow-my.sharepoint.com/:u:/g/personal/pbaskiewicz_opatow_szkola_pl/EQGiJQcRpQ1PnLil69FKlLMBRDDMW8QaL204UxyNWhqsag}
+
 ### Zadania wykonane wgrywamy tutaj:
 [wgraj zadanie](https://zs1opatow-my.sharepoint.com/:f:/g/personal/pbaskiewicz_opatow_szkola_pl/EpU54XkFFb9Go10i5smGf8YBvY6NCDO-82ICT8t8OuyZMg)
 
