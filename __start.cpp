@@ -2,9 +2,7 @@
 #include <iostream>
 #include <string>
 
-
 using namespace std;
-
 
 // funkcja main jest punktem startowym programu
 int main() {
